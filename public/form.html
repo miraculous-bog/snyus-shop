@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>main</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link href="css/fonts.css" type="text/css" rel="stylesheet"/>
+    <link href="css/form.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/header.css">
+
+<!--     <link href="css/style.css" type="text/css" rel="stylesheet"/> -->
+ <!--    <link href="css/styleForMob.css" type="text/css" rel="stylesheet"/> -->
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+<a href="index.html">
+    <section class="head_logo_sec">
+        <div class="head_logo_block">
+            <div class="img_logo"></div>
+        </div>
+    </section>
+</a>
+<header class="header">
+    <div class="conteinerF">
+        <div class="header_body">
+            <a href="index.html" class="header_logo">
+                <img src="img/logoready.png" alt="" width="146" height="36">
+            </a>
+            <a href="#">
+                <div class="toggle-bla-img">
+                    <img src="img/basket2.png" alt="" width="40" height="40">
+                    <div class="num">
+                        <p class="counter-bas"></p>
+                    </div>
+            </a>
+        </div>
+        <div class="header_burger">
+            <span></span>
+        </div>
+        <nav class="header_menu">
+            <ul class="header_list">
+                <li>
+                    <a href="http://go-snyus.shop/" class="header_link a-hov"
+                       onclick="url=this.href;setTimeout('location.href=url',700);this.href='javascript:void(0)';"><span>Главная</span></a>
+                </li>
+                <li>
+                    <a href="info.html" class="header_link a-hov"
+                       onclick="url=this.href;setTimeout('location.href=url',700);this.href='javascript:void(0)';"><span>Доставка</span></a>
+                </li>
+                <div class="search">
+                    <form>
+                        <input type="text" placeholder="Искать здесь...">
+                        <button type="submit"></button>
+                    </form>
+                </div>
+                <li>
+                    <a href="#" class="header_link a-hov"
+                       onclick="url=this.href;setTimeout('location.href=url',700);this.href='javascript:void(0)';"><span>Корзина</span></a>
+                </li>
+                <li>
+                    <a href="index.html#connect" class="header_link a-hov"
+                       onclick="url=this.href;setTimeout('location.href=url',700);this.href='javascript:void(0)';"><span>Связь</span></a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+    </div>
+</header>
+<div class="down">
+    <div class="wrapper">
+        <!-- <h2>Responsive Checkout Form</h2>
+<p>Resize the browser window to see the effect. When the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other.</p> -->
+        <div class="miniwrap">
+            <div class="row">
+                <div class="col-75">
+                    <div class="container-form">
+                     <form id="order-form">
+                        <div class="row">
+                            <div class="col-50">
+                                  <div class="form-control">
+                                        <label class="label-f" for="ename">Имя (ФИ)</label>
+                                        <input class="input-f" type="text" id="ename" name="user_name"
+                                               placeholder="Никулин Олег">
+                                          <i class="fas fa-check-circle"></i>
+                                            <i class="fas fa-exclamation-circle"></i>
+                                                            <small>Error message</small>
+                                    </div>
+                                    <div class="form-control">
+                                        <label class="label-f" for="ephone">Телефон</label>
+                                        <input class="input-f" type="text" id="ephone" name="user_phone"
+                                               placeholder="+38 093 043 4346">
+                                        <i class="fas fa-check-circle"></i>
+                                        <i class="fas fa-exclamation-circle"></i>
+                                                        <small>Error message</small>
+                                     </div>
+                                    <div class="form-control">
+                                        <label class="label-f" for="email">Почта</label>
+                                        <input class="input-f" type="text" id="email" name="user_email">
+                                        <i class="fas fa-check-circle"></i>
+                                        <i class="fas fa-exclamation-circle"></i>
+                                                    <small>Error message</small>
+                                    </div>
+                            </div>
+                         </div>
+                                    <button type="submit" class="btn-f send-email btn btn-primary" onClick=''>Заказать</button>
+                    </form>
+                            </div>
+                        </div>
+                          <div class="col-25">
+                            <div class="container-form" id="products-summary">
+                              <h4>Продукт <span class="price" style="color:black"> <b id="product-count"></b></span></h4>
+                            </div>
+                          </div>
+                    </div>
+            </div>
+        <footer>
+            <div class="top-part-foot">
+                <img src="img/logofoo.png" alt="">
+                <div class="menu-footer">
+                    <ul>
+                        <li><a href="info.html">Доставка</a></li>
+                        <li><a href="index.html">Каталог</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Больше</a></li>
+                    </ul>
+                </div>
+                <div class="icon-footer">
+                    <a href="https://www.instagram.com/_lukanchik_/?hl=ru" target="_blank"><img src="img/inst.png"
+                                                                                                alt="" width="40"
+                                                                                                height="40"></a>
+                    <a href="https://www.instagram.com/_lukanchik_/?hl=ru" target="_blank"><img src="img/inst.png"
+                                                                                                alt="" width="40"
+                                                                                                height="40"></a>
+                    <a href="https://www.instagram.com/_lukanchik_/?hl=ru" target="_blank"><img src="img/inst.png"
+                                                                                                alt="" width="40"
+                                                                                                height="40"></a>
+                </div>
+                <div class="search-footer">
+
+                </div>
+            </div>
+            <div class="bottom-part-foot">
+                <p>&copy; 2020 All right reserved. E-shop "Go Snus" of tobacco product. Snus</p>
+            </div>
+        </footer>
+    </div>
+
+    <div type="button" class="callback-bt">
+        <a href="tg://resolve?domain=Lukanbukan">
+            <div class="text-call">
+                <img src="img/icons8.png" alt="">
+                <span>Перейти в<br>телеграм</span>
+            </div>
+        </a>
+    </div>
+</div>
+<script src="js/main.js" type="text/javascript"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/bmain.js" type="text/javascript"></script>
+<script src="js/forSliderIndex.js"></script>
+<script src="js/head.js"></script>
+<script src="js/formLoader.js"></script>
+<script src="js/validation.js"></script>
+</body>
+</html>

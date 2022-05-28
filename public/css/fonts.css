@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'pribambasregular';
+    src: url("../fonts/1/pribambas-regular-webfont.ttf") format("truetype");
+    src: url('../fonts/1/pribambas-regular-webfont.woff2') format('woff2'),
+         url('../fonts/1/pribambas-regular-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neue_cyrillic';
+    src: url("../fonts/2/bebas_neue_cyrillic-webfont.ttf") format("truetype");
+    src: url('../fonts/2/bebas_neue_cyrillic-webfont.woff2') format('woff2'),
+         url('../fonts/2/bebas_neue_cyrillic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'nanumgothicbold';
+       src: url("../fonts/Nanum_Gothic/NanumGothic-Bold.ttf") format("truetype");
+       src: url("../fonts/Nanum_Gothic/NanumGothic-ExtraBold.ttf") format("truetype");
+       src: url("../fonts/Nanum_Gothic/NanumGothic-Regular.ttf") format("truetype");
+    src: url('../fonts/Nanum_Gothic/nanumgothic-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Nanum_Gothic/nanumgothic-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'yanone_kaffeesatzextralight';
+       src: url("../fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-Regular.ttf") format("truetype");
+
+/*       src: url("../fonts/Yanone_Kaffeesatz/static/YanoneKaffeesatz-Bold.ttf") format("truetype");
+       src: url("../fonts/Yanone_Kaffeesatz/static/YanoneKaffeesatz-ExtraLight.ttf") format("truetype");
+       src: url("../fonts/Yanone_Kaffeesatz/static/YanoneKaffeesatz-Light.ttf") format("truetype");
+       src: url("../fonts/Yanone_Kaffeesatz/static/YanoneKaffeesatz-Medium.ttf") format("truetype");*/
+/*       src: url("../fonts/Yanone_Kaffeesatz/static/YanoneKaffeesatz-Regular.ttf") format("truetype");*/
+ /*      src: url("../fonts/Yanone_Kaffeesatz/static/YanoneKaffeesatz-SemiBold.ttf") format("truetype");
+*/
+    src: url('../fonts/Yanone_Kaffeesatz/yanonekaffeesatz-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../fonts/Yanone_Kaffeesatz/yanonekaffeesatz-variablefont_wght-webfont.woff') format('woff');
+}
